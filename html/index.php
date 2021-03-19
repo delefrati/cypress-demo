@@ -38,7 +38,7 @@
 
   function getPage(page)
   {
-    var data = $.getJSON('content.php?page=' + page, function (data) {
+     $.getJSON('content.php?page=' + page, function (data) {
       $('#content #text').slideUp('slow');
       $('#content #title').slideUp('slow', function () {
         $('#content #title').html(data.title);

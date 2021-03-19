@@ -1,7 +1,7 @@
 describe('Homepage Tests', function () {
   it('Tests the homepage URL', function (){
     cy.visit('/');
-    //cy.title().should('eq', 'Cypress Demo');
+    cy.title().should('eq', 'Cypress Demo');
   });
 });
 
@@ -41,11 +41,13 @@ describe('Menu Test', function () {
 
   it('Tests the button "home"', function (){
 
-    cy.get('[data-cy=btn-menu-open]').click().should('be.visible');
+    cy.get('[data-cy=btn-menu-open]')
+      .click()
+      .should('be.visible');
     cy.get('[data-cy=btn-home]').click();
-    // cy.get('#content')
-    //   .should('be.visible')
-    //   .should('contain', 'jdelefrati@godaddy.com');
+    cy.get('#content')
+      .should('be.visible')
+      .should('contain', 'jdelefrati@godaddy.com');
 
   })
 
