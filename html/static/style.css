@@ -21,7 +21,7 @@ body {
 }
 
 
-#menu-hide {
+a {
     cursor: pointer;
 }
 #content, #menu-hide {
@@ -103,5 +103,29 @@ h3, h4 {
 }
 
 #content {
-    line-height: 300%;
+    line-height: 200%;
+}
+
+ul.list {
+    list-style: circle;
+    margin-bottom: 20px;
+}
+
+ul.list > li {
+    margin-left: 30px;
+    /*line-height: 100%;*/
+}
+
+strong {
+    font-weight: 200;
+}
+
+.center {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.top-50 {
+    margin-top: 50px;
 }

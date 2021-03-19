@@ -22,8 +22,8 @@
         <ul id="menu-main" class="cy-main-menu show-main-menu">
             <li><a href="#home">Home</a></li>
             <li><a href="#what">What is Cypress?</a></li>
+            <li><a href="#who">Who uses it?</a></li>
             <li><a href="#why">Why should you use it?</a></li>
-            <li><a href="#who">Who is using it?</a></li>
             <li><a href="#install">How to install it?</a></li>
         </ul>
     </div>
