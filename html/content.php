@@ -16,7 +16,8 @@ $pages = [
     'why' => ['title' => 'Why should you use it?', 'contents' => getContent('why')],
     'who' => ['title' => 'Who uses it?', 'contents' => getContent('who')],
     'install' => ['title' => 'How to install it', 'contents' => getContent('install')],
-
+    'about' => ['title' => 'About this project', 'contents' => getContent('about')],
+    'form' => ['title' => 'Hidden form', 'contents' => getContent('form')],
 ];
 $allowed_pages = array_keys($pages);
 
