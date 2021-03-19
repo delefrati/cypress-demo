@@ -20,5 +20,6 @@ services:
       - CYPRESS_baseUrl=http://presentation
     # share the current folder as volume to avoid copying
     working_dir: /e2e
+    tty: true
     volumes:
       - ./html:/e2e

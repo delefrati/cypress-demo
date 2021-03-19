@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cypress Demo</title>
     <link rel="stylesheet" href="/static/reset.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -18,13 +19,14 @@
 <div id="bg-op"></div>
 <div id="grid" class="grid">
     <div class="menu">
-        <a id="menu-hide" class="fa fa-bars hide-main-menu"></a>
-        <ul id="menu-main" class="cy-main-menu show-main-menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#what">What is Cypress?</a></li>
-            <li><a href="#who">Who uses it?</a></li>
-            <li><a href="#why">Why should you use it?</a></li>
-            <li><a href="#install">How to install it?</a></li>
+        <a data-cy="btn-menu-open" id="menu-hide" class="fa fa-bars hide-main-menu"></a>
+        <ul data-cy="menu-main" id="menu-main" class="cy-main-menu show-main-menu">
+            <li><a data-cy="btn-home" href="#home">Home</a></li>
+            <li><a data-cy="btn-what" href="#what">What is Cypress?</a></li>
+            <li><a data-cy="btn-who" href="#who">Who uses it?</a></li>
+            <li><a data-cy="btn-why" href="#why">Why should you use it?</a></li>
+            <li><a data-cy="btn-install" href="#how">How to install it?</a></li>
+            <li><a data-cy="btn-about" href="#about">About this project</a></li>
         </ul>
     </div>
     <div id="content">
