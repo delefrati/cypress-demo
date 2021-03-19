@@ -1,16 +1,10 @@
 <h3 class="top-50">As an npm package:</h3>
 <code class="center">npm install cypress <a id="more-npm" class="fa fa-question-circle"></a> </code>
 <div id="more-npm-extra" style="display: none">
-    <p>Actually it is a little more complicated than that, specially for Docker.
-        Some things some times break, there are some scripts that can be used to
-        verify if the installation worked among some other small tweaks that make
-        it easier to run with Jenkins.
+    <p>Actually you can run it as a separated container for Docker-Compose,
+        this is how I'm doing it for this project, you can check the file
+        docker-compose.yml at the root of this project.
     </p>
-    <p>
-        If you want an example of configuration, check the Dockerfile that is part
-        of this project.
-    </p>
-
 </div>
 
 

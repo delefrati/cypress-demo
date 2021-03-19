@@ -49,13 +49,6 @@ a:hover {
     background-color: #fff;
 }
 
-/*#grid {*/
-/*    display: grid;*/
-/*    grid-template-columns: 400px auto;*/
-/*    width: 100%;*/
-/*    transition: all 1s ease-in-out;*/
-/*}*/
-
 #grid {
     width: 100%;
     display: table;
@@ -102,6 +95,11 @@ h3, h4 {
     text-align: center;
 }
 
+strong {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
 #content {
     line-height: 200%;
 }
@@ -113,11 +111,6 @@ ul.list {
 
 ul.list > li {
     margin-left: 30px;
-    /*line-height: 100%;*/
-}
-
-strong {
-    font-weight: 200;
 }
 
 .center {
@@ -128,4 +121,12 @@ strong {
 
 .top-50 {
     margin-top: 50px;
+}
+
+#more-npm-extra {
+    width: 75%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 2px dashed #fff;
 }
