@@ -25,7 +25,7 @@
             <li><a data-cy="btn-what" href="#what">What is Cypress?</a></li>
             <li><a data-cy="btn-who" href="#who">Who uses it?</a></li>
             <li><a data-cy="btn-why" href="#why">Why should you use it?</a></li>
-            <li><a data-cy="btn-install" href="#install">How to install it?</a></li>
+            <li><a data-cy="btn-install" href="#how">How to install it?</a></li>
             <li><a data-cy="btn-about" href="#about">About this project</a></li>
         </ul>
     </div>
